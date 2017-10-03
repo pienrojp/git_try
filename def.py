@@ -22,4 +22,19 @@ def find_max(a,b,c):
         a=d
         return find_max(a,b,c)
         
+print("Please choose 3 numbers")
+a = input("first number...")
+a=int(a)
+b = input("second number...")
+b=int(b)
+c = input("third number...")
+c=int(c)
+    
+    
+if __name__=="__main__":
+    print(find_max(a,b,c))
+    
+    
+    
+        
       
